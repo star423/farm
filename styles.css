@@ -316,12 +316,12 @@ footer h2 {
     
     }
 
-    header nav  ul li:first-child{
+    header nav  ul li{
 
         margin-bottom: 70px;
         right: 350px;
     }
-    header nav  ul li:nth-child(2){
+    header nav  ul li{
 
         margin-bottom: 70px;
         right: 70px;
@@ -332,7 +332,7 @@ footer h2 {
         display: block;
     }
     .vegetablesforsale {
-        grid-template-columns: repeat(2, 1fr); 
+        grid-template-columns: 1fr 1fr; 
         padding-left: 30px;
         padding-right: 30px;
         gap: 50px;
@@ -340,7 +340,7 @@ footer h2 {
         
     }
     .fruitforsale {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr 1fr;
         padding-left: 30px;
         padding-right: 30px;
         gap: 50px;
