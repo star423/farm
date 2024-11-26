@@ -69,8 +69,6 @@ header {
     background-color:#06A816;
     text-align: center; 
     color: white; 
-    display: flex; 
-    flex-direction: column;
     justify-content: space-between; 
     align-items: center; 
     padding: 10px; 
@@ -95,12 +93,19 @@ font-size: 1.0em
 
 }
 
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
 
 nav ul {
     list-style: none; 
     display: flex; 
     flex-direction: column; 
     justify-content: center; 
+    margin: 0; 
+    padding: 0; 
   
     
    
@@ -154,6 +159,7 @@ h3 {
 
 .fruits h2 {
     margin-bottom: 20px; 
+    text-align: start; 
 }
 
 .fruits p {
@@ -177,9 +183,8 @@ h3 {
 }
 .fruitsale figure {
     position: relative; 
-    border: 1px solid #ddd;
-    border-radius: 5px;
     text-align: center;
+    
 }
 
 .fruitsale img {
@@ -192,10 +197,11 @@ h3 {
 .fruitsale figcaption {
     position: absolute;
     top: 50%; 
-    bottom: 50%; 
+    left: 50%;  
     text-align: center; 
     color: white;
     font-size: 1.2em;
+    padding: 10px; 
 }
 
 .vegetables {
@@ -207,6 +213,7 @@ h3 {
     margin-top: 50px;
     font-size: 1.75em;
     margin-bottom: 10px;
+    text-align: start; 
    
 }
 
@@ -216,7 +223,7 @@ h3 {
     margin-bottom: 30px;
 
 }
-.vegetablesforsale h3 {
+.vegetables h3 {
     font-family: 'Irish Grover', cursive;
     font-size: 1.25em;
     margin-bottom: 20px;
@@ -233,12 +240,11 @@ h3 {
 .vegetablesforsalefigure {
     
         position: relative;
-        border-radius: 5px;
+        overflow: hidden;
         text-align: center; 
 }
 .vegetablesforsale img {
     display: block;
-    border: 1px solid #ddd;
     width: 100%;
     height: auto;  
 
@@ -248,10 +254,12 @@ h3 {
   
     position: absolute;
     top: 50%; 
-    bottom: 50%; 
+    left: 50%; 
     text-align: center; 
     color: white;
     font-size: 1.2em;
+    padding: 10px; 
+
 }
     
 
@@ -267,6 +275,23 @@ footer h2 {
     font-size: 1.25em;
     font-family: 'Irish Grover'
     }
+
+.content {
+    background-color:#06A816; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    padding: 30px; 
+
+}
+
+.contact {
+    display: flex; 
+    flex-direction: row; 
+}
+
+
+
 
 .copyright {
         text-align: center;
